@@ -5,7 +5,7 @@ let altura = Number(prompt("Digite o valor da altura: "))
 
     if (base>0 && altura>0)
     {
-        var area = (base * altura)/2
+        let area = (base * altura)/2
         console.log(`Área: ${area}`)
     }
     else
